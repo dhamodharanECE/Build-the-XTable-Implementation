@@ -23,38 +23,36 @@ const App = () => {
   }
 
    return (
-    <div>
-      <div><h1>Date and Views Table</h1></div>
      <div>
-      <span >
-        <button  onClick={handleDate}>Sort by Date</button>
-        <button  onClick={handleViews}>Sort by Views</button>
-      </span>
+      <h1>Date and Views Table</h1>
       <div>
-        <table border="1" cellPadding="5" style={{  marginLeft:'10%', textAlign:"center" }}>
-          <thead>
-            <tr className='tv'>
-              <th className='ta'>Date</th>
-              <th className='tb'>Views</th>
-              <th className='tc'>Article</th>
-            </tr>
-          </thead>
-        </table>
+        <button onClick={handleDate}>Sort by Date</button>
+        <button onClick={handleViews}>Sort by Views</button>
       </div>
-      <table border="1" cellPadding="5" style={{ marginLeft:'10%', textAlign:"center" }}>
+      <table
+        border="1"
+        cellPadding="5"
+        style={{ marginLeft: '25%', textAlign: "center" }}
+      >
         <thead>
-            {val.map((items, index) =>(  
-          <tr key={index} style={{ textOverflow:'ellipsis' }}>
-           <th style={{ padding: '10px 30px'}} >{items.date}</th>
-           <th style={{ padding: '10px 25px'}}>{items.views}</th>
-           <th style={{ padding: '10px 30px'}}>{items.article}</th>
+          <tr>
+            <th>Date</th>
+            <th>Views</th>
+            <th>Article</th>
           </tr>
-            ))}
         </thead>
+        <tbody>
+          {val.map((item, index) => (
+            <tr key={index}>
+              <td>{item.date}</td>
+              <td>{item.views}</td>
+              <td>{item.article}</td>
+            </tr>
+          ))}
+        </tbody>
       </table>
-     </div>
     </div>
-  )
+  );
 }
 
 export default App
