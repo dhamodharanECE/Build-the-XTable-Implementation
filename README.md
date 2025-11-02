@@ -133,5 +133,5 @@ UI figure:
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6ca14a48-0b52-42f0-896d-20da0b2da084" />
 
 Development Link:
-```base
+base
 https://build-the-x-table-implementation.vercel.app/
