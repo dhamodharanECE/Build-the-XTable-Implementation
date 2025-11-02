@@ -30,7 +30,7 @@ The application uses the following static data stored in the component state:
 
 The app displays:
 
-A heading: “Date and Views Table” (<h1> element)
+A heading: “Date and Views Table” 
 
 A table showing all articles with their date, views, and title
 
