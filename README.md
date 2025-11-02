@@ -1,10 +1,10 @@
 # XTable – React Sortable Table
-🧾# Overview
+🧾 Overview
 
 XTable is an interactive ReactJS application that displays a data table of articles with their date and view count.
 It allows users to sort the data dynamically by Date or Views, implementing multi-level sorting using React state and logic — all without any external UI libraries.
 
-✨# Features
+✨ Features
 
 ✅ Displays a table of articles with Date, Views, and Article Title
 ✅ Sort by Date (latest first)
@@ -13,7 +13,7 @@ It allows users to sort the data dynamically by Date or Views, implementing mult
 ✅ Clean, responsive layout using only HTML and CSS
 ✅ Uses React Hooks for state management
 
-📂# Data Used
+📂 Data Used
 
 The application uses the following static data stored in the component state:
 
@@ -25,8 +25,8 @@ The application uses the following static data stored in the component state:
   { date: "2020-09-03", views: 200, article: "Article 4" }
 ]
 
-🧠# Application Behavior
-🖥️# Initial Render
+🧠 Application Behavior
+🖥️ Initial Render
 
 The app displays:
 
@@ -40,7 +40,7 @@ Sort by Date
 
 Sort by Views
 
-📅# Sort by Date
+📅 Sort by Date
 
 When the Sort by Date button is clicked:
 
@@ -93,14 +93,16 @@ For Sort by Views → Compare views first, then dates
 Created buttons using the <button> HTML element only
 
 Built table using pure HTML table elements
-🧰# Tech Stack
+
+🧰 Tech Stack
+
 Technology	Purpose
 ReactJS	UI creation and sorting logic
 HTML5	Table structure
 CSS3	Styling
 JavaScript (ES6+)	Sorting functionality
 
-🧩# Installation and Setup
+🧩 Installation and Setup
 
 Follow these steps to run the app locally:
 
@@ -124,7 +126,7 @@ Open your browser and visit:
 
 http://localhost:3000
 
-🧠# Learnings
+🧠 Learnings
 
 Implementing custom sort logic with multiple conditions
 
