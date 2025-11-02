@@ -1,10 +1,10 @@
-XTable – React Sortable Table
-🧾 Overview
+# XTable – React Sortable Table
+🧾# Overview
 
 XTable is an interactive ReactJS application that displays a data table of articles with their date and view count.
 It allows users to sort the data dynamically by Date or Views, implementing multi-level sorting using React state and logic — all without any external UI libraries.
 
-✨ Features
+✨# Features
 
 ✅ Displays a table of articles with Date, Views, and Article Title
 ✅ Sort by Date (latest first)
@@ -13,7 +13,7 @@ It allows users to sort the data dynamically by Date or Views, implementing mult
 ✅ Clean, responsive layout using only HTML and CSS
 ✅ Uses React Hooks for state management
 
-📂 Data Used
+📂# Data Used
 
 The application uses the following static data stored in the component state:
 
@@ -25,8 +25,8 @@ The application uses the following static data stored in the component state:
   { date: "2020-09-03", views: 200, article: "Article 4" }
 ]
 
-🧠 Application Behavior
-🖥️ Initial Render
+🧠# Application Behavior
+🖥️# Initial Render
 
 The app displays:
 
@@ -40,7 +40,7 @@ Sort by Date
 
 Sort by Views
 
-📅 Sort by Date
+📅# Sort by Date
 
 When the Sort by Date button is clicked:
 
@@ -51,11 +51,17 @@ If multiple rows have the same date, they are further sorted by views (descendin
 Example Output:
 
 Date	Views	Article
+
 2023-09-02	150	Article 2
+
 2023-09-02	120	Article 3
+
 2023-09-01	100	Article 1
+
 2022-09-01	100	Article 1
+
 2020-09-03	200	Article 4
+
 👁️ Sort by Views
 
 When the Sort by Views button is clicked:
@@ -86,15 +92,15 @@ For Sort by Views → Compare views first, then dates
 
 Created buttons using the <button> HTML element only
 
-Built table using pure HTML table elements (<table>, <thead>, <tbody>, <tr>, <th>, <td>)
-
-🧰 Tech Stack
+Built table using pure HTML table elements
+🧰# Tech Stack
 Technology	Purpose
 ReactJS	UI creation and sorting logic
 HTML5	Table structure
 CSS3	Styling
 JavaScript (ES6+)	Sorting functionality
-🧩 Installation and Setup
+
+🧩# Installation and Setup
 
 Follow these steps to run the app locally:
 
@@ -118,7 +124,7 @@ Open your browser and visit:
 
 http://localhost:3000
 
-🧠 Learnings
+🧠# Learnings
 
 Implementing custom sort logic with multiple conditions
 
@@ -128,7 +134,7 @@ Working with date comparisons and nested sorting
 
 Building structured layouts using semantic HTML without external UI libraries.
 
-UI figure:
+# UI figure:
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6ca14a48-0b52-42f0-896d-20da0b2da084" />
 
