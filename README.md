@@ -13,18 +13,6 @@ It allows users to sort the data dynamically by Date or Views, implementing mult
 ✅ Clean, responsive layout using only HTML and CSS
 ✅ Uses React Hooks for state management
 
-📂 Data Used
-
-The application uses the following static data stored in the component state:
-
-[
-  { date: "2022-09-01", views: 100, article: "Article 1" },
-  { date: "2023-09-01", views: 100, article: "Article 1" },
-  { date: "2023-09-02", views: 150, article: "Article 2" },
-  { date: "2023-09-02", views: 120, article: "Article 3" },
-  { date: "2020-09-03", views: 200, article: "Article 4" }
-]
-
 🧠 Application Behavior
 🖥️ Initial Render
 
@@ -86,7 +74,7 @@ For Sort by Views → Compare views first, then dates
 
 Created buttons using the <button> HTML element only
 
-# Built table using pure HTML table elements (<table>, <thead>, <tbody>, <tr>, <th>, <td>)
+Built table using pure HTML table elements (<table>, <thead>, <tbody>, <tr>, <th>, <td>)
 
 🧰 Tech Stack
 Technology	Purpose
@@ -96,7 +84,7 @@ CSS3	Styling
 JavaScript (ES6+)	Sorting functionality
 🧩 Installation and Setup
 
-# Follow these steps to run the app locally:
+Follow these steps to run the app locally:
 
 Clone the Repository
 
@@ -120,7 +108,7 @@ http://localhost:3000
 
 🧠 Learnings
 
-# Implementing custom sort logic with multiple conditions
+Implementing custom sort logic with multiple conditions
 
 Managing and updating component state efficiently in React
 
@@ -128,7 +116,7 @@ Working with date comparisons and nested sorting
 
 Building structured layouts using semantic HTML without external UI libraries.
 
-# UI figure:
+UI figure:
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6ca14a48-0b52-42f0-896d-20da0b2da084" />
 
