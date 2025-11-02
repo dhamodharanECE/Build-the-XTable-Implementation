@@ -86,7 +86,7 @@ For Sort by Views → Compare views first, then dates
 
 Created buttons using the <button> HTML element only
 
-Built table using pure HTML table elements (<table>, <thead>, <tbody>, <tr>, <th>, <td>)
+# Built table using pure HTML table elements (<table>, <thead>, <tbody>, <tr>, <th>, <td>)
 
 🧰 Tech Stack
 Technology	Purpose
@@ -96,7 +96,7 @@ CSS3	Styling
 JavaScript (ES6+)	Sorting functionality
 🧩 Installation and Setup
 
-Follow these steps to run the app locally:
+# Follow these steps to run the app locally:
 
 Clone the Repository
 
@@ -120,7 +120,7 @@ http://localhost:3000
 
 🧠 Learnings
 
-Implementing custom sort logic with multiple conditions
+# Implementing custom sort logic with multiple conditions
 
 Managing and updating component state efficiently in React
 
@@ -128,10 +128,10 @@ Working with date comparisons and nested sorting
 
 Building structured layouts using semantic HTML without external UI libraries.
 
-UI figure:
+# UI figure:
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6ca14a48-0b52-42f0-896d-20da0b2da084" />
 
 Development Link:
-base
+```base
 https://build-the-x-table-implementation.vercel.app/
